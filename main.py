@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.params import Body
 
 app = FastAPI()
 
@@ -8,6 +9,6 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+@app.get("/post")
+async def say_hello(payload: dict = Body(...)):
+    return {"message": payload["message"]}
