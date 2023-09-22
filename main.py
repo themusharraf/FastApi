@@ -9,6 +9,6 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.get("/post")
-async def say_hello(payload: dict = Body(...)):
-    return {"message": payload["message"]}
+# @app.get("/post")
+# async def say_hello(payload: dict = Body(...)):
+#     return {"message": payload["message"]}
