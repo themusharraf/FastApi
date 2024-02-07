@@ -16,11 +16,7 @@ def get_session():
 
 app = FastAPI()
 
-fakeDatabase = {
-    1:{'name':'Clean car'},
-    2:{'name':'Write blog'},
-    3:{'name':'Start stream'},
-}
+
 
 @app.get("/")
 def getItems(session: Session = Depends(get_session)):
@@ -32,12 +28,6 @@ def getItem(id:int, session: Session = Depends(get_session)):
     item = session.query(models.Item).get(id)
     return item
 
-#option #1
-# @app.post("/")
-# def addItem(name:str):
-#     newId = len(fakeDatabase.keys()) + 1
-#     fakeDatabase[newId] = {"name":name}
-#     return fakeDatabase
 
 #Option #2
 @app.post("/")
@@ -49,12 +39,7 @@ def addItem(item:schemas.Item, session: Session = Depends(get_session)):
 
     return item
 
-#Option #3
-# @app.post("/")
-# def addItem(body = Body()):
-#     newId = len(fakeDatabase.keys()) + 1
-#     fakeDatabase[newId] = {"name":body['name']}
-#     return fakeDatabase
+
 
 
 @app.put("/{id}")
