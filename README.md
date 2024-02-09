@@ -1,5 +1,4 @@
 # FastAPI CRUD 
-
 Create, Read, Update, and Delete
 Representational State Transfer - yoki REST - HTTP protokoli orqali aloqa qiladigan API yaratish uchun arxitektura uslubi.
 
