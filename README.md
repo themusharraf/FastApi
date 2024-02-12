@@ -15,7 +15,7 @@ Sahna ortida, API ko'pincha o'z faoliyatining bir qismi sifatida ma'lumotlarni m
 
 
 
-#FastAPI, Python uchun modern va tezlik qiluvchi veb-freymvorkdir. U oson foydalaniladi va RESTful API (RESTful tanlovlar bo'yicha yozilgan interfeys) yaratishda yaxshi hisoblanadi. FastAPI'ning muhim xususiyatlari quyidagilardir:
+FastAPI, Python uchun modern va tezlik qiluvchi veb-freymvorkdir. U oson foydalaniladi va RESTful API (RESTful tanlovlar bo'yicha yozilgan interfeys) yaratishda yaxshi hisoblanadi. FastAPI'ning muhim xususiyatlari quyidagilardir:
 
 Tezlik: FastAPI, performans va tezlikni o'rgangan bo'lib, ASGI (Asynchronous Server Gateway Interface) kutilmagan tarmoq uchun mukammal bo'lib, tanlanadi. Bu, asinxron foydalanuvchilar uchun foydali bo'lishi mumkin.
 
