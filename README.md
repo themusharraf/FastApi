@@ -22,7 +22,7 @@ Pydantic model: FastAPI'da, ko'rsatilgan ma'lumotlar uchun ko'rsatish va tekshir
 
 Avto-dokumentatsiya: FastAPI avto-generatsiya qiluvchi API dokumentatsiyasi yaratadi. Bu, kod yozuvchilarga va API foydalanuvchilariga qulaylik keltiradi, chunki dokumentatsiya avtomatik ravishda yangilanadi va boshqariladi.
 
-Foydalanuvchi autentifikatsiyasi: FastAPI, OAuth, JWT va boshqa autentifikatsiya protokollari bilan integratsiya qilishni osonlashtiradi.
+Foydalanuvchi autentifikatsiyasi: FastAPI, OAuth, JWT va boshqa autentifikatsiya protokollari bilan integratsiya qilishni osonlashtiradi. 
 
 WebSocket qo'llash: FastAPI, WebSocket'lar bilan integratsiya qilishga imkon beradi, shuningdek, Real-Time web ilovalarni yaratishga yordam beradi.
 
