@@ -28,5 +28,5 @@ WebSocket qo'llash: FastAPI, WebSocket'lar bilan integratsiya qilishga imkon ber
 
 Dependency Injection: FastAPI, komponentlarni injeksiya qilishni osonlashtiradi, bu, kodning ko'proq test qilinishini osonlashtiradi va kodni qayta ishlab chiqishni osonlashtiradi.
 
-FastAPI, Python dasturchilari o'rtasida keng qabul qilingan bo'lib, u oddiy yozilgan, kuchli va foydali veb-freymvorkdir.
+FastAPI, Python dasturchilari o'rtasida keng qabul qilingan bo'lib, u oddiy yozilgan, kuchli va foydali veb-freymvorkdir. 
 
